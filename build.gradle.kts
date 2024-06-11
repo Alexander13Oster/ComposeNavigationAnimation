@@ -1,3 +1,6 @@
+plugins {
+    id("org.jetbrains.kotlin.plugin.compose") version "2.0.0"
+}
 buildscript {
     repositories {
         google()
@@ -5,7 +8,7 @@ buildscript {
         gradlePluginPortal()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:8.0.2")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.22")
+        classpath("com.android.tools.build:gradle:8.4.2")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.0")
     }
 }
